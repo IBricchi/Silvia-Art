@@ -1,0 +1,224 @@
+html{
+	height: 100%;
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+body{
+	background-color: black;
+	height: 100%;
+	margin:0;
+	padding:0;
+}
+.main{
+	position: absolute;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center; 
+}
+.main img{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+#main1title{
+	position: absolute;
+	bottom: 0;
+	font-size: 5vh;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+#main2{
+	text-align: center;
+	background-image: url("/img/main2.jpg");
+	overflow: auto;
+	color: white;
+}
+.galimg{
+	-webkit-filter: grayscale(0);
+    filter: grayscale(0);
+	width: 70%;
+	height: 50%;
+	border-radius: 20px;
+	text-align: center;
+	float: left;
+	margin-top: 5%;
+	background-color: black;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: contain;
+    background-position: center; 
+}
+#nccover{
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	position: fixed;
+}
+#nc{
+	position: relative;
+	width: 80%;
+	height: 80%;
+	top: 5%;
+	left: 6%;
+	border-radius: 25px;
+	overflow-y: scroll;
+	background-color: rgba(100,100,100,0.9);
+	text-align: center;
+	padding: 3%;
+
+}
+#ncinfo{
+	position: relative;
+	color: rgba(32,32,32,1);
+}
+#ncimg{
+	position: relative;
+	width: 70%;
+	height: auto;
+}
+#ncexit{
+	top: 3%;
+	right: 7%;
+	font-size: 250%;
+	color: red;
+	position: absolute;
+}
+#main3{
+	background-image: url("/img/main3.jpg");
+}
+#main4{
+	background-image: url("/img/main4.jpg");
+}
+#firbac{
+	position: absolute;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+#firbac div{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+.bac{
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: contain;
+    background-position: center; 
+}
+#me{
+	background-image: url("/img/me.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+    background-position: center; 
+	display: block;
+	position: absolute;
+	height: auto;
+	width: 30%;
+	text-align: center;
+	height: 50%;
+	top: 10%;
+	left: 5%;
+}
+#metxt{
+	width: 50%;
+	height: 40%;
+	display: block;
+	top: 10%;
+	right: 5%;
+	position: absolute;
+	color: white;
+	background-color: black;
+	padding: 3%;
+	opacity: 0.8;
+	overflow: auto;
+}
+#form{
+	background-color: rgba(0,0,0,0.5);
+	padding: 3%;
+	height: 53%;
+	text-align: center;
+	overflow-y: scroll;
+	color: white;
+	position: absolute;
+	top: 5%;
+	margin: 0 auto;
+	width: 30%;
+	left: 35%;
+}
+.line {
+	width: 70%;
+	margin-left: 15%;
+  	display: block;
+  	border: none;
+  	color: white;
+  	background: transparent;
+  	border-bottom: 1px dotted white;
+  	padding: 5px 2px 0 2px;
+}
+.line:focus { 
+  	outline: none;
+  	border-color: #51CBEE;
+}
+.depth {
+	width: 90%;
+	margin-left: 5%;
+  	display: block;
+  	border: none;
+  	border-radius: 20px;
+  	padding: 5px 8px;
+  	color: #333;
+  	box-shadow: 
+    inset 0 2px 0 rgba(0,0,0,.2), 
+    0 0 4px rgba(0,0,0,0.1);
+}
+.depth:focus { 
+  	outline: none;
+  	box-shadow: 
+    inset 0 2px 0 rgba(0,0,0,.2), 
+    0 0 4px rgba(0,0,0,0.1),
+    0 0 5px 1px #51CBEE;
+}
+h2, h3, h5{
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+.fb-like{
+	margin-top: 85vh;
+	bottom: 1px
+	left: 1px;
+}
+nav{
+	position: absolute;
+	width: 100%;
+	bottom: 15vh;
+	height: 10vh;
+	font-size: 3vh;
+}
+nav div{
+	opacity: 0.5;
+	text-align: center;
+	vertical-align: text-top;
+	float: left;
+	width: 25%;
+	height: 100%;
+	color: white;
+	background-color: black;
+}
+nav div p{
+	float: right;
+	width: 100%;
+}
+nav div img{
+	float: right;
+	width: 22%;
+	margin-right: 39%;
+	margin-bottom: 3%;
+}
