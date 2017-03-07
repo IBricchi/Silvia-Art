@@ -1,6 +1,6 @@
 var onuse=1;
 var base=2;
-var max=23;
+var max=24;
 var inImgFull=false;
 // transition from section to section
 function changemain(xdif,xtime) {
@@ -71,16 +71,22 @@ var title = ["Tree Of Life",
 			"Red Sunset",
 			"Twister",
 			"Heart I",
-			"Heart II"]
+			"Heart II",
+			"Tango"]
 //sold
-var sold = [false,
+var sold = [true,
+			true,
+			false,
+			true,
+			true,
 			false,
 			false,
 			false,
 			false,
+			true,
+			true,
 			false,
-			false,
-			false,
+			true,
 			false,
 			false,
 			false,
@@ -91,11 +97,7 @@ var sold = [false,
 			false,
 			false,
 			false,
-			false,
-			false,
-			false,
-			false,
-			false]
+			true]
 //info
 var info  = ["Oil on canvas - 60x80cm",
 			"Oil on canvas - 100x100cm",
@@ -119,7 +121,8 @@ var info  = ["Oil on canvas - 60x80cm",
 			"Oil on canvas - 60x80cm",
 			"Mixed media - 60x80cm",
 			"Oil on canvas - 50x40cm",
-			"Oil on canvas - 50x40cm"]
+			"Oil on canvas - 50x40cm",
+			"Oil on canvas - ?x?cm"]
 // create sections
 $(function(){
 	for (var k = 1; k <= max; k++) {
